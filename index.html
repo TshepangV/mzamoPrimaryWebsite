@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+ <!--NAVIGATION-->        
+        <nav>
+            
+           <img src="mz.png" class="img" alt="logo"> 
+           <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html" style="color: black;">HOME</a></li>
+            <li><a href="About.html" style="color: black;">ABOUT</a></li>
+            <!-- <li><a href="#">COURSES</a></li>-->
+            <li><a href="events.html" style="color: black;">EVENTS</a></li>
+            <!--<li><a href="#">GALLERY</a></li>>-->
+            <!--<li><a href="#">BLOG</a></li>-->
+            <!--<li><a href="#">PAGES</a></li>>-->
+            <li><a href="contact.html" style="color: black;">CONTACT</a></li>
+       </ul>
+           <ul>
+                <li class="hideOnmobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnmobile"><a href="About.html">ABOUT</a></li>
+                <!-- <li><a href="#">COURSES</a></li>-->
+                <li class="hideOnmobile"><a href="events.html">EVENTS</a></li>
+                <!--<li><a href="#">GALLERY</a></li>>-->
+                <!--<li><a href="#">BLOG</a></li>-->
+                <!--<li><a href="#">PAGES</a></li>>-->
+                <li class="hideOnmobile"><a href="contact.html">CONTACT</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+           </ul>
+
+           </div>
+
+        </nav> 
+<!--END OF NAVIGATION-->
+
+    <div class="section">
+        <h1>WE ENSURE A BETTER EDUCATION <br> FOR A BETTER WORLD</h1>
+        
+        <a href="#"><button class="btn1">GET STARTED</button></a>
+<!--FEATURES-->
+        <div class="features">
+            <button>lean online classes</button>
+            <button>Bridge Courses</button>
+            <button>Huge Library</button>
+            <button>Physical classes</button>
+        </div>
+
+<!--END OF FEATURES-->  
+    </div>    
+<!--END OF SECTION--> 
+    </div>
+<!--END OF WRAPPING-->
+
+<!--SHOWCASE--> 
+    <showcase>
+        <h1>POPULAR STEAMS WE OFFER</h1>
+        <div id="streams">
+            <div class="cs">
+                <h3>Physical Science & Math</h3>
+                <img src="physics.jpg" width="50%" alt="cs"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+
+            <div class="business">
+                <h3>Business studies & Accounting</h3>
+                <img src="accounting.jpg" width="50%" alt="business"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+
+            <div class="history">
+                <h3>History & Geography</h3>
+                <img src="history.jpg" width="50%" alt="history"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="Sports">
+                <h3>Sports & Recreation</h3>
+                <img src="sports.jpg" width="50%" alt="Sports"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="Religion">
+                <h3>Religion & Bible studies</h3>
+                <img src="religion.jpg" width="50%" alt="Religion"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+        </div>
+    </showcase>
+<!--END OF SHOWCASING-->
+    <footer>
+        <P>Copyright &copy; 2024, TIMahlangu</P>
+    </footer>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
