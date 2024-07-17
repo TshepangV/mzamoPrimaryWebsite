@@ -3,17 +3,30 @@ body{
     margin: 0;
     padding: 0;
 }
+/*added by Nombulelo Nkala*/
 .index-wrapper{
     
   height: 30rem;
   background-image: url("mzamo.png");
- 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  image-rendering: -webkit-optimize-contrast;
 }
+/*responsiveness of the index-wrapper*/
+@media only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+    .index-wrapper {
+        background-image: url('mzamo.png');
+    }
+}
+
 .wrapper{
     
     height: 30rem;
   
-   
+  
 }
 nav{
     width: 100%;
