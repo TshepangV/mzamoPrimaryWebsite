@@ -3,9 +3,16 @@ body{
     margin: 0;
     padding: 0;
 }
+.index-wrapper{
+    
+  height: 30rem;
+  background-image: url("mzamo.png");
+ 
+}
 .wrapper{
     
     height: 30rem;
+  
    
 }
 nav{
@@ -601,7 +608,7 @@ textarea {
 }
 
 .contact {
-    background-color: rgb(235, 176, 109);
+    background-color: white;
 }
 
 
