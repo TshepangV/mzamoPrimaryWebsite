@@ -63,7 +63,7 @@ img{
 img:hover {
   /* add hover styles here */
   transform: scale(1.1); /* example: scale up the image by 10% */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* example: add a drop shadow */
+  box-shadow: 0 0 10px rgba(241, 117, 16, 0.5); /* example: add a drop shadow */
   top: 0;
   border-radius: 7px;
   cursor: pointer;
