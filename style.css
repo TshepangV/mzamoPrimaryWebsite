@@ -170,6 +170,14 @@ footer{
   
   text-decoration: none;
 }
+footer .social-icons a {
+  margin: 0 10px;
+  color: #fff; /* Change icon color to white for better contrast */
+  text-decoration: none;
+}
+footer .social-icons a:hover {
+  color: #d4edda; /* Change hover color to a lighter green */
+}
 .left-foot ul li{
   
 }
