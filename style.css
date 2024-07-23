@@ -1,3 +1,4 @@
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -303,7 +304,7 @@ footer .social-icons a:hover {
     display: none;
 }
 
-
+/*
 
 .contact {
     text-align: center;
@@ -637,6 +638,7 @@ textarea {
     cursor: pointer;
     text-decoration: none; /* Remove underline from the link */
 }
+/*
 
 .contact {
     background-color: white;
@@ -652,12 +654,6 @@ textarea {
 }
 
   
-  
-  
-
-
-
-
 /*responsiveness*/
 @media (max-width: 643px) 
 {
@@ -679,5 +675,4 @@ textarea {
     
     }
 }
-
 
